@@ -1,0 +1,15 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "description": "Carnivalee Freakshow font by Chris Hansen, all rights reserved 2004",
+  "main": "doro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}

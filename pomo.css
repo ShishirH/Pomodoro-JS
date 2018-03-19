@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+    color: #800000;
+    font-family: 'Carnival';
+    font-size: 1.6rem;
+}
+
+@font-face {
+    font-family: 'Carnival';
+    src: url('carnival.ttf');
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #ed4264, #ffedbc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60%;
+    flex-wrap: wrap;
+}
+.header
+{
+    padding-top: 25px;
+    font-size: 3rem;
+    color: #692029;
+    font-family: 'Ewert', cursive;
+}
+.box
+{
+    display: flex;
+    flex-basis: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 600px;
+}
+ul li
+{
+    list-style: none;
+}
+
+.duration
+{
+    flex-basis: 50%;
+}
+
+.break
+{
+    flex-basis: 50%;
+}
+
+
+.time
+{
+    flex-basis: 100%;
+}
+
+
+.controls
+{
+    display: flex;
+    flex-basis: 40%;
+}
+
+.controls .play
+{
+    margin-right: auto;
+}
+
+.controls .pause
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controls .stop
+{
+    margin-left: auto;
+}
+
+.dur
+{
+    flex-basis: 50%;
+}
+
+.bre
+{
+    flex-basis: 50%;
+}
+
+.dur h2
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.bre h2
+{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+
+}
+
+.time h2
+{
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.waitingForConnection {
+    animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  }
+@keyframes blinker { to { opacity: 0; } }
